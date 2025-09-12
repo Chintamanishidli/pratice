@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing Toggle</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="pricing" class="pricing position-relative overflow-hidden">
+      <div class="container position-relative">
+        <div class="row justify-content-center">
+          <div
+            class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 text-center"
+          >
+            <small class="fs-7 d-block">Pricing Plan</small>
+            <h2 class="fs-3 pricing-head text-black mb-0 position-relative">
+              What’s About Our Pricing Subscription
+            </h2>
+          </div>
+        </div>
+
+        <!-- Toggle -->
+        <div class="row plans mb-4">
+          <div class="col-12 text-center">
+            <div
+              class="form-check form-switch d-flex justify-content-center ps-0 align-items-center"
+            >
+              <label class="form-check-label text-black fs-7 me-2"
+                >Monthly</label
+              >
+              <input class="form-check-input" type="checkbox" id="planToggle" />
+              <label class="form-check-label text-black fs-7 ms-2"
+                >Yearly</label
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Pricing Cards -->
+        <div class="row justify-content-center price-plan">
+          <!-- BASIC PLAN -->
+          <div class="col-md-4">
+            <div class="card shadow border-0 h-100">
+              <div class="card-body pb-4 text-center">
+                <small class="fs-7 d-block text-primary">BASIC PLAN</small>
+                <h2 class="mb-4 position-relative">
+                  <sub
+                    class="fs-2 text-black price"
+                    data-monthly="149.00"
+                    data-yearly="1499.00"
+                    >149.00</sub
+                  >
+                </h2>
+                <p class="fs-7 fw-500">
+                  Core CRM, Basic Project Management, Invoicing
+                </p>
+                <ul class="list-unstyled mb-0 pl-0 features">
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Invoices : 50 "
+                      data-yearly="Allowed Invoices : 600 "
+                      >Allowed Invoices : 50</span
+                    >
+                  </li>
+
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Customers: 100 "
+                      data-yearly="Allowed Customers: 1000 "
+                      >Allowed Customers: 100</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Contracts: 20 "
+                      data-yearly="Allowed Contracts: 2000 "
+                      >Allowed Contracts: 20</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Projects: 10 "
+                      data-yearly="Allowed Projects: 1000 "
+                      >Allowed Projects: 10</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Estimates: 30 "
+                      data-yearly="Allowed Estimates: 3000 "
+                      >Allowed Estimates: 30</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Credit Notes: 10"
+                      data-yearly="Allowed Credit Notes: 10000 "
+                      >Allowed Credit Notes: 10</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Payments: 50 "
+                      data-yearly="Allowed Payments: 5000 "
+                      >Allowed Payments: 50</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Items: 100"
+                      data-yearly="Allowed Items: 10000 "
+                      >Allowed Items: 100</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Proposals: 15"
+                      data-yearly="Allowed Proposals: 15000 "
+                      >Allowed Proposals: 15</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Expenses: 50"
+                      data-yearly="Allowed Expenses: 5000 "
+                      >Allowed Expenses: 50</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Tasks: 200"
+                      data-yearly="Allowed Tasks: 200 "
+                      >Allowed Tasks: 200</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    </span>
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Support Tickets: 50"
+                      data-yearly="Allowed Support Tickets: 5000 "
+                      >Allowed Support Tickets: 50</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Leads: 100"
+                      data-yearly="Allowed Leads: 10000 "
+                      >Allowed Leads: 100</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Staffs: 3"
+                      data-yearly="Allowed Staffs: 3 "
+                      >Allowed Staffs: 3</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- PRO PLAN -->
+        <div class="col-md-4">
+            <div class="card shadow border-0 h-100">
+              <div class="card-body pb-4 text-center">
+                <small class="fs-7 d-block text-primary">PRO PLAN</small>
+                <h2 class="mb-4 position-relative">
+                  <sub
+                    class="fs-2 text-black price"
+                    data-monthly="149.00"
+                    data-yearly="3499.00"
+                    >149.00</sub
+                  >
+                </h2>
+                <p class="fs-7 fw-500">
+                  Advanced Project Management, Invoicing, Support Tickets
+                </p>
+                <ul class="list-unstyled mb-0 pl-0 features">
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Invoices : 50 "
+                      data-yearly="Allowed Invoices : 200 "
+                      >Allowed Invoices : 50</span
+                    >
+                  </li>
+
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Customers: 100 "
+                      data-yearly="Allowed Customers: 500 "
+                      >Allowed Customers: 100</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Contracts: 20 "
+                      data-yearly="Allowed Contracts: 50 "
+                      >Allowed Contracts: 20</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Projects: 10 "
+                      data-yearly="Allowed Projects: 30 "
+                      >Allowed Projects: 10</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Estimates: 30 "
+                      data-yearly="Allowed Estimates: 100 "
+                      >Allowed Estimates: 30</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Credit Notes: 10"
+                      data-yearly="Allowed Credit Notes: 30 "
+                      >Allowed Credit Notes: 10</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Payments: 20 "
+                      data-yearly="Allowed Payments: 200 "
+                      >Allowed Payments: 20</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Items: 50"
+                      data-yearly="Allowed Items: 500 "
+                      >Allowed Items: 50</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Proposals: 15"
+                      data-yearly="Allowed Proposals: 50 "
+                      >Allowed Proposals: 15</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Expenses: 50"
+                      data-yearly="Allowed Expenses: 200 "
+                      >Allowed Expenses: 50</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Tasks: 200"
+                      data-yearly="Allowed Tasks: 1000 "
+                      >Allowed Tasks: 200</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    </span>
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Support Tickets: 50"
+                      data-yearly="Allowed Support Tickets: 200 "
+                      >Allowed Support Tickets: 50</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Leads: 100"
+                      data-yearly="Allowed Leads: 500 "
+                      >Allowed Leads: 100</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Staffs: 3"
+                      data-yearly="Allowed Staffs: 5 "
+                      >Allowed Staffs: 3</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- ENTERPRISE PLAN -->
+
+ <div class="col-md-4">
+            <div class="card shadow border-0 h-100">
+              <div class="card-body pb-4 text-center">
+                <small class="fs-7 d-block text-warning ">ENTERPRISE PLAN</small>
+                <h2 class="mb-4 position-relative">
+                  <sub
+                    class="fs-2 text-black price"
+                    data-monthly="149.00"
+                    data-yearly="6999.00"
+                    >6999.00</sub
+                  >
+                </h2>
+                <p class="fs-7 fw-500">
+                  All Modules, Automations, Custom Workflows, API Access
+                </p>
+                <ul class="list-unstyled mb-0 pl-0 features">
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Invoices : 100 "
+                      data-yearly="Allowed Invoices : 10000 "
+                      >Allowed Invoices : 100</span
+                    >
+                  </li>
+
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Customers: 100 "
+                      data-yearly="Allowed Customers: 10000 "
+                      >Allowed Customers: 100</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Contracts: 100 "
+                      data-yearly="Allowed Contracts: 10000 "
+                      >Allowed Contracts: 100</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Projects: 100"
+                      data-yearly="Allowed Projects: 10000 "
+                      >Allowed Projects: 100</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Estimates: 100 "
+                      data-yearly="Allowed Estimates: 10000 "
+                      >Allowed Estimates: 100</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Credit Notes: 100"
+                      data-yearly="Allowed Credit Notes: 10000 "
+                      >Allowed Credit Notes: 100</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Payments: 100 "
+                      data-yearly="Allowed Payments: 10000 "
+                      >Allowed Payments: 100</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Items: 100"
+                      data-yearly="Allowed Items: 10000 "
+                      >Allowed Items: 100</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Proposals: 100"
+                      data-yearly="Allowed Proposals: 10000 "
+                      >Allowed Proposals: 100</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Expenses: 100"
+                      data-yearly="Allowed Expenses: 10000 "
+                      >Allowed Expenses: 100</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Tasks: 100"
+                      data-yearly="Allowed Tasks: 10000 "
+                      >Allowed Tasks: 100</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    </span>
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Support Tickets: 100"
+                      data-yearly="Allowed Support Tickets: 10000 "
+                      >Allowed Support Tickets: 100</span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Leads: 100"
+                      data-yearly="Allowed Leads: 10000 "
+                      >Allowed Leads:100 </span
+                    >
+                  </li>
+                  <li class="d-flex align-items-start">
+                    
+                    <i class="ti ti-circle-check fs-4 pe-2"></i>
+                    <span
+                      class="fs-7 text-black"
+                      data-monthly="Allowed Staffs: 100"
+                      data-yearly="Allowed Staffs: 10000 "
+                      >Allowed Staffs: 100</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+<small class="fs-7 d-block text-warning">Your text here</small>
+
+<small class="fs-7 d-block" style="color: rgb(166, 86, 12);">
+  Your text here
+</small>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript -->
+    <script>
+      const toggle = document.getElementById("planToggle");
+      const prices = document.querySelectorAll(".price");
+      const features = document.querySelectorAll(".features li span");
+
+      function updatePlans() {
+        prices.forEach((price) => {
+          price.textContent = toggle.checked
+            ? price.getAttribute("data-yearly")
+            : price.getAttribute("data-monthly");
+        });
+
+        features.forEach((item) => {
+          item.textContent = toggle.checked
+            ? item.getAttribute("data-yearly")
+            : item.getAttribute("data-monthly");
+        });
+      }
+
+      toggle.addEventListener("change", updatePlans);
+      updatePlans(); // initialize
+    </script>
+  </body>
+</html>
